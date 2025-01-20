@@ -38,7 +38,7 @@ const App = () => {
       formData.append("name", file.name); 
 
       const response = await axios.post(
-       // "https://document-summary-assistant-that-takes-nywv.onrender.com/extracttext",
+       "https://document-summary-assistant-that-takes-4752.onrender.com/extracttext",
         formData,
         {
           headers: {
